@@ -1,3 +1,36 @@
 <header>
-  HEADER COMES HERE
+  <div class="lg:flex">
+      <div class="flex flex-grow">
+          <div class="flex-grow">
+              <img class="w-40 h-16" src="images/ncp_flanders.png" alt="ncp_flanders">
+          </div>
+          <button id="dropdown-btn"
+              class="lg:hidden w-32 h-12  uppercase border-solid border-2 rounded-full border-gray-500 py-1 px-4 ">menu</button>
+          <a href="#"
+              class="lg:hidden bg-blue-100 items-center w-12 h-12 ml-2 justify-center flex uppercase border-solid border-2 rounded-full border-gray-500 p-3 "><i
+                  class="fas fa-user"></i></a>
+      </div>
+      <ul id="" class="dropdown-lijst lg:flex hidden lg:inline lg:items-center block text-lg lg:mr-4">
+          <li class="lg:px-4"><a href="#">Home</a></li>
+          <li class="lg:px-4"><a href="#">Our Team</a></li>
+          <li class="lg:px-4"><a href="#">News</a></li>
+          <li class="lg:px-4"><a href="#">Events</a></li>
+          <div class="hidden lg:block">
+              <li class="px-4 uppercase font-bold bg-gray-300 rounded-full py-3 px-8"><a class=""
+                      href="#">Login</a></li>
+          </div>
+      </ul>
+  </div>
+  <div class="lg:flex pt-5">
+      <ul class=" dropdown-lijst lg:flex hidden lg:inline w-full items-center">
+          <li class="mr-4 lg:w-1/4 border-t-8 b-grey-500 font-bold text-base"><a href="#"><span
+                      class="block pt-4 font-bold text-sm">General</span>Horizon 2020</a></li>
+          <li class="mr-4 lg:w-1/4 border-t-8 b-grey-500 font-bold text-base"><a href="#"><span
+                      class="block pt-4 font-bold text-sm">Funding by</span>Horizon 2020 programmes</a></li>
+          <li class="mr-4 lg:w-1/4 border-t-8 b-grey-500 font-bold text-base"><a href="#"><span
+                      class="block pt-4 font-bold text-sm">Other</span>EU funding</a></li>
+          <li class="mr-4 lg:w-1/4 border-t-8 b-grey-500 font-bold text-base"><a href="#"><span
+                      class="block pt-4 font-bold text-sm">Horizon 2020</span>Guidance in Flanders</a></li>
+      </ul>
+  </div>
 </header>
