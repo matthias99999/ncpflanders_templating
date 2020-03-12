@@ -11,12 +11,14 @@
   </head>
 
   <body>
+    <div class="w-3/4 m-auto py-5">
     {% include header.html %}
     
-    <div class="main">
-      {{ content }}
-    </div>
-
+    <main>
+      {% include index_content.html %}
+    </main>
+  </div>
+    {% include footer2.html %} 
     {% include footer.html %}   
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
